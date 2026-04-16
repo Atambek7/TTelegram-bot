@@ -1,0 +1,3697 @@
+{
+  "adjectives": [
+    {
+      "id": 1,
+      "word": "big",
+      "translation": "большой",
+      "emoji": "🐘",
+      "category": "size",
+      "grade": 5,
+      "degrees": {
+        "comparative": "bigger",
+        "superlative": "biggest"
+      },
+      "antonym": "small",
+      "synonyms": [
+        "large",
+        "huge"
+      ],
+      "example": "The elephant is very big.",
+      "example_translation": "Слон очень большой.",
+      "sentence_blank": "The elephant is very ___."
+    },
+    {
+      "id": 2,
+      "word": "small",
+      "translation": "маленький",
+      "emoji": "🐜",
+      "category": "size",
+      "grade": 5,
+      "degrees": {
+        "comparative": "smaller",
+        "superlative": "smallest"
+      },
+      "antonym": "big",
+      "synonyms": [
+        "little",
+        "tiny"
+      ],
+      "example": "The ant is very small.",
+      "example_translation": "Муравей очень маленький.",
+      "sentence_blank": "The ant is very ___."
+    },
+    {
+      "id": 3,
+      "word": "tall",
+      "translation": "высокий",
+      "emoji": "🦒",
+      "category": "size",
+      "grade": 5,
+      "degrees": {
+        "comparative": "taller",
+        "superlative": "tallest"
+      },
+      "antonym": "short",
+      "synonyms": [
+        "high"
+      ],
+      "example": "The giraffe is very tall.",
+      "example_translation": "Жираф очень высокий.",
+      "sentence_blank": "The giraffe is very ___."
+    },
+    {
+      "id": 4,
+      "word": "short",
+      "translation": "короткий; низкий",
+      "emoji": "📏",
+      "category": "size",
+      "grade": 5,
+      "degrees": {
+        "comparative": "shorter",
+        "superlative": "shortest"
+      },
+      "antonym": "tall",
+      "synonyms": [
+        "low"
+      ],
+      "example": "The pencil is short.",
+      "example_translation": "Карандаш короткий.",
+      "sentence_blank": "The pencil is ___."
+    },
+    {
+      "id": 5,
+      "word": "long",
+      "translation": "длинный",
+      "emoji": "🐍",
+      "category": "size",
+      "grade": 5,
+      "degrees": {
+        "comparative": "longer",
+        "superlative": "longest"
+      },
+      "antonym": "short",
+      "synonyms": [
+        "lengthy"
+      ],
+      "example": "The snake is very long.",
+      "example_translation": "Змея очень длинная.",
+      "sentence_blank": "The snake is very ___."
+    },
+    {
+      "id": 6,
+      "word": "new",
+      "translation": "новый",
+      "emoji": "🆕",
+      "category": "age",
+      "grade": 5,
+      "degrees": {
+        "comparative": "newer",
+        "superlative": "newest"
+      },
+      "antonym": "old",
+      "synonyms": [
+        "fresh",
+        "modern"
+      ],
+      "example": "I have a new book.",
+      "example_translation": "У меня новая книга.",
+      "sentence_blank": "I have a ___ book."
+    },
+    {
+      "id": 7,
+      "word": "old",
+      "translation": "старый",
+      "emoji": "👴",
+      "category": "age",
+      "grade": 5,
+      "degrees": {
+        "comparative": "older",
+        "superlative": "oldest"
+      },
+      "antonym": "new",
+      "synonyms": [
+        "ancient"
+      ],
+      "example": "My grandma is very old.",
+      "example_translation": "Моя бабушка очень старая.",
+      "sentence_blank": "My grandma is very ___."
+    },
+    {
+      "id": 8,
+      "word": "good",
+      "translation": "хороший",
+      "emoji": "👍",
+      "category": "quality",
+      "grade": 5,
+      "degrees": {
+        "comparative": "better",
+        "superlative": "best"
+      },
+      "antonym": "bad",
+      "synonyms": [
+        "great",
+        "nice"
+      ],
+      "example": "This is a good idea.",
+      "example_translation": "Это хорошая идея.",
+      "sentence_blank": "This is a ___ idea."
+    },
+    {
+      "id": 9,
+      "word": "bad",
+      "translation": "плохой",
+      "emoji": "👎",
+      "category": "quality",
+      "grade": 5,
+      "degrees": {
+        "comparative": "worse",
+        "superlative": "worst"
+      },
+      "antonym": "good",
+      "synonyms": [
+        "terrible",
+        "awful"
+      ],
+      "example": "The weather is bad today.",
+      "example_translation": "Сегодня плохая погода.",
+      "sentence_blank": "The weather is ___ today."
+    },
+    {
+      "id": 10,
+      "word": "happy",
+      "translation": "счастливый",
+      "emoji": "😊",
+      "category": "emotion",
+      "grade": 5,
+      "degrees": {
+        "comparative": "happier",
+        "superlative": "happiest"
+      },
+      "antonym": "sad",
+      "synonyms": [
+        "glad",
+        "joyful"
+      ],
+      "example": "She is very happy today.",
+      "example_translation": "Она сегодня очень счастлива.",
+      "sentence_blank": "She is very ___ today."
+    },
+    {
+      "id": 11,
+      "word": "sad",
+      "translation": "грустный",
+      "emoji": "😢",
+      "category": "emotion",
+      "grade": 5,
+      "degrees": {
+        "comparative": "sadder",
+        "superlative": "saddest"
+      },
+      "antonym": "happy",
+      "synonyms": [
+        "unhappy",
+        "upset"
+      ],
+      "example": "He looks sad today.",
+      "example_translation": "Он сегодня выглядит грустным.",
+      "sentence_blank": "He looks ___ today."
+    },
+    {
+      "id": 12,
+      "word": "hot",
+      "translation": "горячий; жаркий",
+      "emoji": "🥵",
+      "category": "weather",
+      "grade": 5,
+      "degrees": {
+        "comparative": "hotter",
+        "superlative": "hottest"
+      },
+      "antonym": "cold",
+      "synonyms": [
+        "warm"
+      ],
+      "example": "The tea is very hot.",
+      "example_translation": "Чай очень горячий.",
+      "sentence_blank": "The tea is very ___."
+    },
+    {
+      "id": 13,
+      "word": "cold",
+      "translation": "холодный",
+      "emoji": "🥶",
+      "category": "weather",
+      "grade": 5,
+      "degrees": {
+        "comparative": "colder",
+        "superlative": "coldest"
+      },
+      "antonym": "hot",
+      "synonyms": [
+        "cool",
+        "freezing"
+      ],
+      "example": "The water is very cold.",
+      "example_translation": "Вода очень холодная.",
+      "sentence_blank": "The water is very ___."
+    },
+    {
+      "id": 14,
+      "word": "fast",
+      "translation": "быстрый",
+      "emoji": "⚡",
+      "category": "speed",
+      "grade": 5,
+      "degrees": {
+        "comparative": "faster",
+        "superlative": "fastest"
+      },
+      "antonym": "slow",
+      "synonyms": [
+        "quick",
+        "rapid"
+      ],
+      "example": "The car is very fast.",
+      "example_translation": "Машина очень быстрая.",
+      "sentence_blank": "The car is very ___."
+    },
+    {
+      "id": 15,
+      "word": "slow",
+      "translation": "медленный",
+      "emoji": "🐢",
+      "category": "speed",
+      "grade": 5,
+      "degrees": {
+        "comparative": "slower",
+        "superlative": "slowest"
+      },
+      "antonym": "fast",
+      "synonyms": [
+        "sluggish"
+      ],
+      "example": "The turtle is very slow.",
+      "example_translation": "Черепаха очень медленная.",
+      "sentence_blank": "The turtle is very ___."
+    },
+    {
+      "id": 16,
+      "word": "young",
+      "translation": "молодой",
+      "emoji": "👶",
+      "category": "age",
+      "grade": 5,
+      "degrees": {
+        "comparative": "younger",
+        "superlative": "youngest"
+      },
+      "antonym": "old",
+      "synonyms": [
+        "little"
+      ],
+      "example": "The puppy is very young.",
+      "example_translation": "Щенок очень молодой.",
+      "sentence_blank": "The puppy is very ___."
+    },
+    {
+      "id": 17,
+      "word": "beautiful",
+      "translation": "красивый",
+      "emoji": "🌹",
+      "category": "appearance",
+      "grade": 5,
+      "degrees": {
+        "comparative": "more beautiful",
+        "superlative": "most beautiful"
+      },
+      "antonym": "ugly",
+      "synonyms": [
+        "pretty",
+        "lovely"
+      ],
+      "example": "The garden is beautiful.",
+      "example_translation": "Сад красивый.",
+      "sentence_blank": "The garden is ___."
+    },
+    {
+      "id": 18,
+      "word": "ugly",
+      "translation": "уродливый",
+      "emoji": "👹",
+      "category": "appearance",
+      "grade": 5,
+      "degrees": {
+        "comparative": "uglier",
+        "superlative": "ugliest"
+      },
+      "antonym": "beautiful",
+      "synonyms": [
+        "hideous"
+      ],
+      "example": "The monster is ugly.",
+      "example_translation": "Монстр уродливый.",
+      "sentence_blank": "The monster is ___."
+    },
+    {
+      "id": 19,
+      "word": "nice",
+      "translation": "приятный; хороший",
+      "emoji": "😌",
+      "category": "quality",
+      "grade": 5,
+      "degrees": {
+        "comparative": "nicer",
+        "superlative": "nicest"
+      },
+      "antonym": "nasty",
+      "synonyms": [
+        "pleasant",
+        "kind"
+      ],
+      "example": "She is a nice person.",
+      "example_translation": "Она приятный человек.",
+      "sentence_blank": "She is a ___ person."
+    },
+    {
+      "id": 20,
+      "word": "clean",
+      "translation": "чистый",
+      "emoji": "✨",
+      "category": "quality",
+      "grade": 5,
+      "degrees": {
+        "comparative": "cleaner",
+        "superlative": "cleanest"
+      },
+      "antonym": "dirty",
+      "synonyms": [
+        "tidy",
+        "neat"
+      ],
+      "example": "The room is very clean.",
+      "example_translation": "Комната очень чистая.",
+      "sentence_blank": "The room is very ___."
+    },
+    {
+      "id": 21,
+      "word": "dirty",
+      "translation": "грязный",
+      "emoji": "🤮",
+      "category": "quality",
+      "grade": 5,
+      "degrees": {
+        "comparative": "dirtier",
+        "superlative": "dirtiest"
+      },
+      "antonym": "clean",
+      "synonyms": [
+        "messy",
+        "filthy"
+      ],
+      "example": "My hands are dirty.",
+      "example_translation": "Мои руки грязные.",
+      "sentence_blank": "My hands are ___."
+    },
+    {
+      "id": 22,
+      "word": "hungry",
+      "translation": "голодный",
+      "emoji": "🤤",
+      "category": "feeling",
+      "grade": 5,
+      "degrees": {
+        "comparative": "hungrier",
+        "superlative": "hungriest"
+      },
+      "antonym": "full",
+      "synonyms": [
+        "starving"
+      ],
+      "example": "I am very hungry now.",
+      "example_translation": "Я сейчас очень голоден.",
+      "sentence_blank": "I am very ___ now."
+    },
+    {
+      "id": 23,
+      "word": "angry",
+      "translation": "злой",
+      "emoji": "😠",
+      "category": "emotion",
+      "grade": 5,
+      "degrees": {
+        "comparative": "angrier",
+        "superlative": "angriest"
+      },
+      "antonym": "calm",
+      "synonyms": [
+        "mad",
+        "furious"
+      ],
+      "example": "The teacher was angry.",
+      "example_translation": "Учитель был злой.",
+      "sentence_blank": "The teacher was ___."
+    },
+    {
+      "id": 24,
+      "word": "scary",
+      "translation": "страшный",
+      "emoji": "👻",
+      "category": "emotion",
+      "grade": 5,
+      "degrees": {
+        "comparative": "scarier",
+        "superlative": "scariest"
+      },
+      "antonym": "calm",
+      "synonyms": [
+        "frightening",
+        "terrifying"
+      ],
+      "example": "The movie is very scary.",
+      "example_translation": "Фильм очень страшный.",
+      "sentence_blank": "The movie is very ___."
+    },
+    {
+      "id": 25,
+      "word": "funny",
+      "translation": "смешной",
+      "emoji": "😂",
+      "category": "quality",
+      "grade": 5,
+      "degrees": {
+        "comparative": "funnier",
+        "superlative": "funniest"
+      },
+      "antonym": "serious",
+      "synonyms": [
+        "amusing",
+        "hilarious"
+      ],
+      "example": "The joke is very funny.",
+      "example_translation": "Шутка очень смешная.",
+      "sentence_blank": "The joke is very ___."
+    },
+    {
+      "id": 26,
+      "word": "clever",
+      "translation": "умный",
+      "emoji": "🧠",
+      "category": "character",
+      "grade": 5,
+      "degrees": {
+        "comparative": "cleverer",
+        "superlative": "cleverest"
+      },
+      "antonym": "stupid",
+      "synonyms": [
+        "smart",
+        "intelligent"
+      ],
+      "example": "The student is very clever.",
+      "example_translation": "Студент очень умный.",
+      "sentence_blank": "The student is very ___."
+    },
+    {
+      "id": 27,
+      "word": "strong",
+      "translation": "сильный",
+      "emoji": "💪",
+      "category": "character",
+      "grade": 5,
+      "degrees": {
+        "comparative": "stronger",
+        "superlative": "strongest"
+      },
+      "antonym": "weak",
+      "synonyms": [
+        "powerful",
+        "mighty"
+      ],
+      "example": "The man is very strong.",
+      "example_translation": "Мужчина очень сильный.",
+      "sentence_blank": "The man is very ___."
+    },
+    {
+      "id": 28,
+      "word": "weak",
+      "translation": "слабый",
+      "emoji": "🥀",
+      "category": "character",
+      "grade": 5,
+      "degrees": {
+        "comparative": "weaker",
+        "superlative": "weakest"
+      },
+      "antonym": "strong",
+      "synonyms": [
+        "frail"
+      ],
+      "example": "The kitten is very weak.",
+      "example_translation": "Котёнок очень слабый.",
+      "sentence_blank": "The kitten is very ___."
+    },
+    {
+      "id": 29,
+      "word": "dark",
+      "translation": "тёмный",
+      "emoji": "🌑",
+      "category": "appearance",
+      "grade": 5,
+      "degrees": {
+        "comparative": "darker",
+        "superlative": "darkest"
+      },
+      "antonym": "light",
+      "synonyms": [
+        "dim"
+      ],
+      "example": "The room is very dark.",
+      "example_translation": "В комнате очень темно.",
+      "sentence_blank": "The room is very ___."
+    },
+    {
+      "id": 30,
+      "word": "light",
+      "translation": "светлый; лёгкий",
+      "emoji": "☀️",
+      "category": "appearance",
+      "grade": 5,
+      "degrees": {
+        "comparative": "lighter",
+        "superlative": "lightest"
+      },
+      "antonym": "dark",
+      "synonyms": [
+        "bright"
+      ],
+      "example": "The blue dress is light.",
+      "example_translation": "Синее платье светлое.",
+      "sentence_blank": "The blue dress is ___."
+    },
+    {
+      "id": 31,
+      "word": "sweet",
+      "translation": "сладкий",
+      "emoji": "🍬",
+      "category": "taste",
+      "grade": 5,
+      "degrees": {
+        "comparative": "sweeter",
+        "superlative": "sweetest"
+      },
+      "antonym": "sour",
+      "synonyms": [
+        "sugary"
+      ],
+      "example": "The cake is very sweet.",
+      "example_translation": "Торт очень сладкий.",
+      "sentence_blank": "The cake is very ___."
+    },
+    {
+      "id": 32,
+      "word": "sour",
+      "translation": "кислый",
+      "emoji": "🍋",
+      "category": "taste",
+      "grade": 5,
+      "degrees": {
+        "comparative": "sourer",
+        "superlative": "sourest"
+      },
+      "antonym": "sweet",
+      "synonyms": [
+        "tart"
+      ],
+      "example": "The lemon is very sour.",
+      "example_translation": "Лимон очень кислый.",
+      "sentence_blank": "The lemon is very ___."
+    },
+    {
+      "id": 33,
+      "word": "hard",
+      "translation": "твёрдый; сложный",
+      "emoji": "🪨",
+      "category": "quality",
+      "grade": 5,
+      "degrees": {
+        "comparative": "harder",
+        "superlative": "hardest"
+      },
+      "antonym": "soft",
+      "synonyms": [
+        "difficult",
+        "solid"
+      ],
+      "example": "The rock is very hard.",
+      "example_translation": "Камень очень твёрдый.",
+      "sentence_blank": "The rock is very ___."
+    },
+    {
+      "id": 34,
+      "word": "soft",
+      "translation": "мягкий",
+      "emoji": "🧸",
+      "category": "texture",
+      "grade": 5,
+      "degrees": {
+        "comparative": "softer",
+        "superlative": "softest"
+      },
+      "antonym": "hard",
+      "synonyms": [
+        "gentle",
+        "tender"
+      ],
+      "example": "The pillow is very soft.",
+      "example_translation": "Подушка очень мягкая.",
+      "sentence_blank": "The pillow is very ___."
+    },
+    {
+      "id": 35,
+      "word": "dry",
+      "translation": "сухой",
+      "emoji": "🏜️",
+      "category": "weather",
+      "grade": 5,
+      "degrees": {
+        "comparative": "drier",
+        "superlative": "driest"
+      },
+      "antonym": "wet",
+      "synonyms": [
+        "arid"
+      ],
+      "example": "The desert is very dry.",
+      "example_translation": "Пустыня очень сухая.",
+      "sentence_blank": "The desert is very ___."
+    },
+    {
+      "id": 36,
+      "word": "wet",
+      "translation": "мокрый",
+      "emoji": "💦",
+      "category": "weather",
+      "grade": 5,
+      "degrees": {
+        "comparative": "wetter",
+        "superlative": "wettest"
+      },
+      "antonym": "dry",
+      "synonyms": [
+        "damp",
+        "moist"
+      ],
+      "example": "The ground is wet after the rain.",
+      "example_translation": "Земля мокрая после дождя.",
+      "sentence_blank": "The ground is ___ after the rain."
+    },
+    {
+      "id": 37,
+      "word": "rich",
+      "translation": "богатый",
+      "emoji": "💰",
+      "category": "quality",
+      "grade": 5,
+      "degrees": {
+        "comparative": "richer",
+        "superlative": "richest"
+      },
+      "antonym": "poor",
+      "synonyms": [
+        "wealthy"
+      ],
+      "example": "The man is very rich.",
+      "example_translation": "Мужчина очень богатый.",
+      "sentence_blank": "The man is very ___."
+    },
+    {
+      "id": 38,
+      "word": "poor",
+      "translation": "бедный",
+      "emoji": "🪙",
+      "category": "quality",
+      "grade": 5,
+      "degrees": {
+        "comparative": "poorer",
+        "superlative": "poorest"
+      },
+      "antonym": "rich",
+      "synonyms": [
+        "needy"
+      ],
+      "example": "The family is very poor.",
+      "example_translation": "Семья очень бедная.",
+      "sentence_blank": "The family is very ___."
+    },
+    {
+      "id": 39,
+      "word": "free",
+      "translation": "свободный; бесплатный",
+      "emoji": "🕊️",
+      "category": "quality",
+      "grade": 5,
+      "degrees": {
+        "comparative": "freer",
+        "superlative": "freest"
+      },
+      "antonym": "busy",
+      "synonyms": [
+        "available"
+      ],
+      "example": "The Wi-Fi is free here.",
+      "example_translation": "Здесь бесплатный Wi-Fi.",
+      "sentence_blank": "The Wi-Fi is ___ here."
+    },
+    {
+      "id": 40,
+      "word": "busy",
+      "translation": "занятой",
+      "emoji": "🏃",
+      "category": "quality",
+      "grade": 5,
+      "degrees": {
+        "comparative": "busier",
+        "superlative": "busiest"
+      },
+      "antonym": "free",
+      "synonyms": [
+        "occupied"
+      ],
+      "example": "She is very busy today.",
+      "example_translation": "Она сегодня очень занята.",
+      "sentence_blank": "She is very ___ today."
+    },
+    {
+      "id": 41,
+      "word": "early",
+      "translation": "ранний",
+      "emoji": "🌅",
+      "category": "time",
+      "grade": 5,
+      "degrees": {
+        "comparative": "earlier",
+        "superlative": "earliest"
+      },
+      "antonym": "late",
+      "synonyms": [
+        "prompt"
+      ],
+      "example": "I woke up early today.",
+      "example_translation": "Я сегодня проснулся рано.",
+      "sentence_blank": "I woke up ___ today."
+    },
+    {
+      "id": 42,
+      "word": "late",
+      "translation": "поздний",
+      "emoji": "🌙",
+      "category": "time",
+      "grade": 5,
+      "degrees": {
+        "comparative": "later",
+        "superlative": "latest"
+      },
+      "antonym": "early",
+      "synonyms": [
+        "tardy"
+      ],
+      "example": "He was late for school.",
+      "example_translation": "Он опоздал в школу.",
+      "sentence_blank": "He was ___ for school."
+    },
+    {
+      "id": 43,
+      "word": "loud",
+      "translation": "громкий",
+      "emoji": "🔊",
+      "category": "sound",
+      "grade": 5,
+      "degrees": {
+        "comparative": "louder",
+        "superlative": "loudest"
+      },
+      "antonym": "quiet",
+      "synonyms": [
+        "noisy"
+      ],
+      "example": "The music is very loud.",
+      "example_translation": "Музыка очень громкая.",
+      "sentence_blank": "The music is very ___."
+    },
+    {
+      "id": 44,
+      "word": "quiet",
+      "translation": "тихий",
+      "emoji": "🤫",
+      "category": "sound",
+      "grade": 5,
+      "degrees": {
+        "comparative": "quieter",
+        "superlative": "quietest"
+      },
+      "antonym": "loud",
+      "synonyms": [
+        "silent",
+        "calm"
+      ],
+      "example": "The library is very quiet.",
+      "example_translation": "Библиотека очень тихая.",
+      "sentence_blank": "The library is very ___."
+    },
+    {
+      "id": 45,
+      "word": "red",
+      "translation": "красный",
+      "emoji": "🔴",
+      "category": "color",
+      "grade": 5,
+      "degrees": null,
+      "antonym": "green",
+      "synonyms": [
+        "scarlet"
+      ],
+      "example": "The apple is red.",
+      "example_translation": "Яблоко красное.",
+      "sentence_blank": "The apple is ___."
+    },
+    {
+      "id": 46,
+      "word": "bright",
+      "translation": "яркий",
+      "emoji": "☀️",
+      "category": "appearance",
+      "grade": 6,
+      "degrees": {
+        "comparative": "brighter",
+        "superlative": "brightest"
+      },
+      "antonym": "dim",
+      "synonyms": [
+        "shining",
+        "vivid"
+      ],
+      "example": "The sun is very bright today.",
+      "example_translation": "Сегодня солнце очень яркое.",
+      "sentence_blank": "The sun is very ___ today."
+    },
+    {
+      "id": 47,
+      "word": "brave",
+      "translation": "храбрый",
+      "emoji": "🦸",
+      "category": "character",
+      "grade": 6,
+      "degrees": {
+        "comparative": "braver",
+        "superlative": "bravest"
+      },
+      "antonym": "cowardly",
+      "synonyms": [
+        "courageous",
+        "bold"
+      ],
+      "example": "The firefighter is very brave.",
+      "example_translation": "Пожарный очень храбрый.",
+      "sentence_blank": "The firefighter is very ___."
+    },
+    {
+      "id": 48,
+      "word": "calm",
+      "translation": "спокойный",
+      "emoji": "🧘",
+      "category": "character",
+      "grade": 6,
+      "degrees": {
+        "comparative": "calmer",
+        "superlative": "calmest"
+      },
+      "antonym": "angry",
+      "synonyms": [
+        "peaceful",
+        "relaxed"
+      ],
+      "example": "The sea is very calm today.",
+      "example_translation": "Море сегодня очень спокойное.",
+      "sentence_blank": "The sea is very ___ today."
+    },
+    {
+      "id": 49,
+      "word": "careful",
+      "translation": "осторожный",
+      "emoji": "⚠️",
+      "category": "character",
+      "grade": 6,
+      "degrees": {
+        "comparative": "more careful",
+        "superlative": "most careful"
+      },
+      "antonym": "careless",
+      "synonyms": [
+        "cautious",
+        "attentive"
+      ],
+      "example": "Be careful with the glass!",
+      "example_translation": "Будь осторожен со стаканом!",
+      "sentence_blank": "Be ___ with the glass!"
+    },
+    {
+      "id": 50,
+      "word": "cheap",
+      "translation": "дешёвый",
+      "emoji": "💵",
+      "category": "quality",
+      "grade": 6,
+      "degrees": {
+        "comparative": "cheaper",
+        "superlative": "cheapest"
+      },
+      "antonym": "expensive",
+      "synonyms": [
+        "affordable"
+      ],
+      "example": "This shirt is very cheap.",
+      "example_translation": "Эта рубашка очень дешёвая.",
+      "sentence_blank": "This shirt is very ___."
+    },
+    {
+      "id": 51,
+      "word": "comfortable",
+      "translation": "удобный",
+      "emoji": "🛋️",
+      "category": "quality",
+      "grade": 6,
+      "degrees": {
+        "comparative": "more comfortable",
+        "superlative": "most comfortable"
+      },
+      "antonym": "uncomfortable",
+      "synonyms": [
+        "cozy"
+      ],
+      "example": "The sofa is very comfortable.",
+      "example_translation": "Диван очень удобный.",
+      "sentence_blank": "The sofa is very ___."
+    },
+    {
+      "id": 52,
+      "word": "dangerous",
+      "translation": "опасный",
+      "emoji": "☠️",
+      "category": "quality",
+      "grade": 6,
+      "degrees": {
+        "comparative": "more dangerous",
+        "superlative": "most dangerous"
+      },
+      "antonym": "safe",
+      "synonyms": [
+        "risky",
+        "hazardous"
+      ],
+      "example": "The road is very dangerous.",
+      "example_translation": "Дорога очень опасная.",
+      "sentence_blank": "The road is very ___."
+    },
+    {
+      "id": 53,
+      "word": "difficult",
+      "translation": "сложный",
+      "emoji": "🧩",
+      "category": "quality",
+      "grade": 6,
+      "degrees": {
+        "comparative": "more difficult",
+        "superlative": "most difficult"
+      },
+      "antonym": "easy",
+      "synonyms": [
+        "hard",
+        "challenging"
+      ],
+      "example": "The test was very difficult.",
+      "example_translation": "Тест был очень сложным.",
+      "sentence_blank": "The test was very ___."
+    },
+    {
+      "id": 54,
+      "word": "easy",
+      "translation": "лёгкий; простой",
+      "emoji": "😎",
+      "category": "quality",
+      "grade": 6,
+      "degrees": {
+        "comparative": "easier",
+        "superlative": "easiest"
+      },
+      "antonym": "difficult",
+      "synonyms": [
+        "simple"
+      ],
+      "example": "The question is very easy.",
+      "example_translation": "Вопрос очень простой.",
+      "sentence_blank": "The question is very ___."
+    },
+    {
+      "id": 55,
+      "word": "expensive",
+      "translation": "дорогой",
+      "emoji": "💎",
+      "category": "quality",
+      "grade": 6,
+      "degrees": {
+        "comparative": "more expensive",
+        "superlative": "most expensive"
+      },
+      "antonym": "cheap",
+      "synonyms": [
+        "costly",
+        "pricey"
+      ],
+      "example": "The phone is very expensive.",
+      "example_translation": "Телефон очень дорогой.",
+      "sentence_blank": "The phone is very ___."
+    },
+    {
+      "id": 56,
+      "word": "famous",
+      "translation": "знаменитый",
+      "emoji": "⭐",
+      "category": "quality",
+      "grade": 6,
+      "degrees": {
+        "comparative": "more famous",
+        "superlative": "most famous"
+      },
+      "antonym": "unknown",
+      "synonyms": [
+        "popular",
+        "well-known"
+      ],
+      "example": "She is a famous singer.",
+      "example_translation": "Она знаменитая певица.",
+      "sentence_blank": "She is a ___ singer."
+    },
+    {
+      "id": 57,
+      "word": "fresh",
+      "translation": "свежий",
+      "emoji": "🌿",
+      "category": "quality",
+      "grade": 6,
+      "degrees": {
+        "comparative": "fresher",
+        "superlative": "freshest"
+      },
+      "antonym": "stale",
+      "synonyms": [
+        "new"
+      ],
+      "example": "The bread is very fresh.",
+      "example_translation": "Хлеб очень свежий.",
+      "sentence_blank": "The bread is very ___."
+    },
+    {
+      "id": 58,
+      "word": "gentle",
+      "translation": "нежный",
+      "emoji": "🌸",
+      "category": "character",
+      "grade": 6,
+      "degrees": {
+        "comparative": "gentler",
+        "superlative": "gentlest"
+      },
+      "antonym": "rough",
+      "synonyms": [
+        "mild",
+        "tender"
+      ],
+      "example": "She has a gentle voice.",
+      "example_translation": "У неё нежный голос.",
+      "sentence_blank": "She has a ___ voice."
+    },
+    {
+      "id": 59,
+      "word": "heavy",
+      "translation": "тяжёлый",
+      "emoji": "🏋️",
+      "category": "size",
+      "grade": 6,
+      "degrees": {
+        "comparative": "heavier",
+        "superlative": "heaviest"
+      },
+      "antonym": "light",
+      "synonyms": [
+        "weighty"
+      ],
+      "example": "The box is very heavy.",
+      "example_translation": "Коробка очень тяжёлая.",
+      "sentence_blank": "The box is very ___."
+    },
+    {
+      "id": 60,
+      "word": "healthy",
+      "translation": "здоровый",
+      "emoji": "🍎",
+      "category": "quality",
+      "grade": 6,
+      "degrees": {
+        "comparative": "healthier",
+        "superlative": "healthiest"
+      },
+      "antonym": "sick",
+      "synonyms": [
+        "fit",
+        "well"
+      ],
+      "example": "Eating fruit is healthy.",
+      "example_translation": "Есть фрукты полезно.",
+      "sentence_blank": "Eating fruit is ___."
+    },
+    {
+      "id": 61,
+      "word": "honest",
+      "translation": "честный",
+      "emoji": "🤝",
+      "category": "character",
+      "grade": 6,
+      "degrees": {
+        "comparative": "more honest",
+        "superlative": "most honest"
+      },
+      "antonym": "dishonest",
+      "synonyms": [
+        "truthful",
+        "sincere"
+      ],
+      "example": "He is an honest person.",
+      "example_translation": "Он честный человек.",
+      "sentence_blank": "He is an ___ person."
+    },
+    {
+      "id": 62,
+      "word": "important",
+      "translation": "важный",
+      "emoji": "‼️",
+      "category": "quality",
+      "grade": 6,
+      "degrees": {
+        "comparative": "more important",
+        "superlative": "most important"
+      },
+      "antonym": "unimportant",
+      "synonyms": [
+        "significant",
+        "essential"
+      ],
+      "example": "Education is very important.",
+      "example_translation": "Образование очень важно.",
+      "sentence_blank": "Education is very ___."
+    },
+    {
+      "id": 63,
+      "word": "interesting",
+      "translation": "интересный",
+      "emoji": "📚",
+      "category": "quality",
+      "grade": 6,
+      "degrees": {
+        "comparative": "more interesting",
+        "superlative": "most interesting"
+      },
+      "antonym": "boring",
+      "synonyms": [
+        "fascinating",
+        "engaging"
+      ],
+      "example": "The book is very interesting.",
+      "example_translation": "Книга очень интересная.",
+      "sentence_blank": "The book is very ___."
+    },
+    {
+      "id": 64,
+      "word": "kind",
+      "translation": "добрый",
+      "emoji": "💝",
+      "category": "character",
+      "grade": 6,
+      "degrees": {
+        "comparative": "kinder",
+        "superlative": "kindest"
+      },
+      "antonym": "cruel",
+      "synonyms": [
+        "nice",
+        "gentle"
+      ],
+      "example": "She is very kind to everyone.",
+      "example_translation": "Она очень добра ко всем.",
+      "sentence_blank": "She is very ___ to everyone."
+    },
+    {
+      "id": 65,
+      "word": "lazy",
+      "translation": "ленивый",
+      "emoji": "🦥",
+      "category": "character",
+      "grade": 6,
+      "degrees": {
+        "comparative": "lazier",
+        "superlative": "laziest"
+      },
+      "antonym": "hardworking",
+      "synonyms": [
+        "idle"
+      ],
+      "example": "The cat is very lazy.",
+      "example_translation": "Кот очень ленивый.",
+      "sentence_blank": "The cat is very ___."
+    },
+    {
+      "id": 66,
+      "word": "lucky",
+      "translation": "удачливый",
+      "emoji": "🍀",
+      "category": "quality",
+      "grade": 6,
+      "degrees": {
+        "comparative": "luckier",
+        "superlative": "luckiest"
+      },
+      "antonym": "unlucky",
+      "synonyms": [
+        "fortunate"
+      ],
+      "example": "I was lucky to win the prize.",
+      "example_translation": "Мне повезло выиграть приз.",
+      "sentence_blank": "I was ___ to win the prize."
+    },
+    {
+      "id": 67,
+      "word": "narrow",
+      "translation": "узкий",
+      "emoji": "🛤️",
+      "category": "size",
+      "grade": 6,
+      "degrees": {
+        "comparative": "narrower",
+        "superlative": "narrowest"
+      },
+      "antonym": "wide",
+      "synonyms": [
+        "thin",
+        "slim"
+      ],
+      "example": "The street is very narrow.",
+      "example_translation": "Улица очень узкая.",
+      "sentence_blank": "The street is very ___."
+    },
+    {
+      "id": 68,
+      "word": "noisy",
+      "translation": "шумный",
+      "emoji": "🎵",
+      "category": "sound",
+      "grade": 6,
+      "degrees": {
+        "comparative": "noisier",
+        "superlative": "noisiest"
+      },
+      "antonym": "quiet",
+      "synonyms": [
+        "loud"
+      ],
+      "example": "The classroom is very noisy.",
+      "example_translation": "В классе очень шумно.",
+      "sentence_blank": "The classroom is very ___."
+    },
+    {
+      "id": 69,
+      "word": "polite",
+      "translation": "вежливый",
+      "emoji": "🎩",
+      "category": "character",
+      "grade": 6,
+      "degrees": {
+        "comparative": "more polite",
+        "superlative": "most polite"
+      },
+      "antonym": "rude",
+      "synonyms": [
+        "courteous",
+        "respectful"
+      ],
+      "example": "He is always polite.",
+      "example_translation": "Он всегда вежлив.",
+      "sentence_blank": "He is always ___."
+    },
+    {
+      "id": 70,
+      "word": "popular",
+      "translation": "популярный",
+      "emoji": "🏆",
+      "category": "quality",
+      "grade": 6,
+      "degrees": {
+        "comparative": "more popular",
+        "superlative": "most popular"
+      },
+      "antonym": "unpopular",
+      "synonyms": [
+        "famous",
+        "well-liked"
+      ],
+      "example": "This song is very popular.",
+      "example_translation": "Эта песня очень популярна.",
+      "sentence_blank": "This song is very ___."
+    },
+    {
+      "id": 71,
+      "word": "safe",
+      "translation": "безопасный",
+      "emoji": "🛡️",
+      "category": "quality",
+      "grade": 6,
+      "degrees": {
+        "comparative": "safer",
+        "superlative": "safest"
+      },
+      "antonym": "dangerous",
+      "synonyms": [
+        "secure"
+      ],
+      "example": "This neighborhood is very safe.",
+      "example_translation": "Этот район очень безопасный.",
+      "sentence_blank": "This neighborhood is very ___."
+    },
+    {
+      "id": 72,
+      "word": "strange",
+      "translation": "странный",
+      "emoji": "👽",
+      "category": "quality",
+      "grade": 6,
+      "degrees": {
+        "comparative": "stranger",
+        "superlative": "strangest"
+      },
+      "antonym": "normal",
+      "synonyms": [
+        "weird",
+        "unusual"
+      ],
+      "example": "The noise sounded strange.",
+      "example_translation": "Звук был странный.",
+      "sentence_blank": "The noise sounded ___."
+    },
+    {
+      "id": 73,
+      "word": "useful",
+      "translation": "полезный",
+      "emoji": "🔧",
+      "category": "quality",
+      "grade": 6,
+      "degrees": {
+        "comparative": "more useful",
+        "superlative": "most useful"
+      },
+      "antonym": "useless",
+      "synonyms": [
+        "helpful",
+        "practical"
+      ],
+      "example": "This tool is very useful.",
+      "example_translation": "Этот инструмент очень полезный.",
+      "sentence_blank": "This tool is very ___."
+    },
+    {
+      "id": 74,
+      "word": "wide",
+      "translation": "широкий",
+      "emoji": "🌊",
+      "category": "size",
+      "grade": 6,
+      "degrees": {
+        "comparative": "wider",
+        "superlative": "widest"
+      },
+      "antonym": "narrow",
+      "synonyms": [
+        "broad"
+      ],
+      "example": "The river is very wide.",
+      "example_translation": "Река очень широкая.",
+      "sentence_blank": "The river is very ___."
+    },
+    {
+      "id": 75,
+      "word": "wonderful",
+      "translation": "чудесный",
+      "emoji": "🌈",
+      "category": "quality",
+      "grade": 6,
+      "degrees": {
+        "comparative": "more wonderful",
+        "superlative": "most wonderful"
+      },
+      "antonym": "terrible",
+      "synonyms": [
+        "amazing",
+        "fantastic"
+      ],
+      "example": "The view is wonderful!",
+      "example_translation": "Вид чудесный!",
+      "sentence_blank": "The view is ___!"
+    },
+    {
+      "id": 76,
+      "word": "creative",
+      "translation": "творческий",
+      "emoji": "🎨",
+      "category": "character",
+      "grade": 6,
+      "degrees": {
+        "comparative": "more creative",
+        "superlative": "most creative"
+      },
+      "antonym": "uncreative",
+      "synonyms": [
+        "imaginative",
+        "artistic"
+      ],
+      "example": "She is a creative writer.",
+      "example_translation": "Она творческий писатель.",
+      "sentence_blank": "She is a ___ writer."
+    },
+    {
+      "id": 77,
+      "word": "excited",
+      "translation": "взволнованный",
+      "emoji": "🎉",
+      "category": "emotion",
+      "grade": 6,
+      "degrees": {
+        "comparative": "more excited",
+        "superlative": "most excited"
+      },
+      "antonym": "calm",
+      "synonyms": [
+        "thrilled",
+        "enthusiastic"
+      ],
+      "example": "I am excited about the trip!",
+      "example_translation": "Я взволнован поездкой!",
+      "sentence_blank": "I am ___ about the trip!"
+    },
+    {
+      "id": 78,
+      "word": "patient",
+      "translation": "терпеливый",
+      "emoji": "⏳",
+      "category": "character",
+      "grade": 6,
+      "degrees": {
+        "comparative": "more patient",
+        "superlative": "most patient"
+      },
+      "antonym": "impatient",
+      "synonyms": [
+        "calm",
+        "tolerant"
+      ],
+      "example": "The teacher is very patient.",
+      "example_translation": "Учитель очень терпеливый.",
+      "sentence_blank": "The teacher is very ___."
+    },
+    {
+      "id": 79,
+      "word": "proud",
+      "translation": "гордый",
+      "emoji": "🦚",
+      "category": "emotion",
+      "grade": 6,
+      "degrees": {
+        "comparative": "prouder",
+        "superlative": "proudest"
+      },
+      "antonym": "ashamed",
+      "synonyms": [
+        "confident"
+      ],
+      "example": "She is proud of her work.",
+      "example_translation": "Она горда своей работой.",
+      "sentence_blank": "She is ___ of her work."
+    },
+    {
+      "id": 80,
+      "word": "terrible",
+      "translation": "ужасный",
+      "emoji": "😱",
+      "category": "quality",
+      "grade": 6,
+      "degrees": {
+        "comparative": "more terrible",
+        "superlative": "most terrible"
+      },
+      "antonym": "wonderful",
+      "synonyms": [
+        "awful",
+        "horrible"
+      ],
+      "example": "The weather is terrible today.",
+      "example_translation": "Сегодня ужасная погода.",
+      "sentence_blank": "The weather is ___ today."
+    },
+    {
+      "id": 81,
+      "word": "warm",
+      "translation": "тёплый",
+      "emoji": "🌤️",
+      "category": "weather",
+      "grade": 6,
+      "degrees": {
+        "comparative": "warmer",
+        "superlative": "warmest"
+      },
+      "antonym": "cool",
+      "synonyms": [
+        "mild"
+      ],
+      "example": "The water is very warm.",
+      "example_translation": "Вода очень тёплая.",
+      "sentence_blank": "The water is very ___."
+    },
+    {
+      "id": 82,
+      "word": "cool",
+      "translation": "прохладный; крутой",
+      "emoji": "😎",
+      "category": "weather",
+      "grade": 6,
+      "degrees": {
+        "comparative": "cooler",
+        "superlative": "coolest"
+      },
+      "antonym": "warm",
+      "synonyms": [
+        "chilly",
+        "awesome"
+      ],
+      "example": "It is cool outside today.",
+      "example_translation": "Сегодня на улице прохладно.",
+      "sentence_blank": "It is ___ outside today."
+    },
+    {
+      "id": 83,
+      "word": "round",
+      "translation": "круглый",
+      "emoji": "🔵",
+      "category": "shape",
+      "grade": 6,
+      "degrees": null,
+      "antonym": "square",
+      "synonyms": [
+        "circular"
+      ],
+      "example": "The ball is round.",
+      "example_translation": "Мяч круглый.",
+      "sentence_blank": "The ball is ___."
+    },
+    {
+      "id": 84,
+      "word": "thirsty",
+      "translation": "жаждущий",
+      "emoji": "💧",
+      "category": "feeling",
+      "grade": 6,
+      "degrees": {
+        "comparative": "thirstier",
+        "superlative": "thirstiest"
+      },
+      "antonym": "full",
+      "synonyms": [
+        "parched"
+      ],
+      "example": "I am very thirsty after running.",
+      "example_translation": "Я очень хочу пить после бега.",
+      "sentence_blank": "I am very ___ after running."
+    },
+    {
+      "id": 85,
+      "word": "tired",
+      "translation": "усталый",
+      "emoji": "😴",
+      "category": "feeling",
+      "grade": 6,
+      "degrees": {
+        "comparative": "more tired",
+        "superlative": "most tired"
+      },
+      "antonym": "energetic",
+      "synonyms": [
+        "exhausted",
+        "weary"
+      ],
+      "example": "I am very tired after work.",
+      "example_translation": "Я очень устал после работы.",
+      "sentence_blank": "I am very ___ after work."
+    },
+    {
+      "id": 86,
+      "word": "worried",
+      "translation": "обеспокоенный",
+      "emoji": "😟",
+      "category": "emotion",
+      "grade": 6,
+      "degrees": {
+        "comparative": "more worried",
+        "superlative": "most worried"
+      },
+      "antonym": "calm",
+      "synonyms": [
+        "anxious",
+        "concerned"
+      ],
+      "example": "She is worried about the exam.",
+      "example_translation": "Она беспокоится об экзамене.",
+      "sentence_blank": "She is ___ about the exam."
+    },
+    {
+      "id": 87,
+      "word": "attractive",
+      "translation": "привлекательный",
+      "emoji": "💕",
+      "category": "appearance",
+      "grade": 7,
+      "degrees": {
+        "comparative": "more attractive",
+        "superlative": "most attractive"
+      },
+      "antonym": "unattractive",
+      "synonyms": [
+        "beautiful",
+        "charming"
+      ],
+      "example": "The garden looks very attractive.",
+      "example_translation": "Сад выглядит очень привлекательно.",
+      "sentence_blank": "The garden looks very ___."
+    },
+    {
+      "id": 88,
+      "word": "boring",
+      "translation": "скучный",
+      "emoji": "😑",
+      "category": "quality",
+      "grade": 7,
+      "degrees": {
+        "comparative": "more boring",
+        "superlative": "most boring"
+      },
+      "antonym": "interesting",
+      "synonyms": [
+        "dull",
+        "tedious"
+      ],
+      "example": "The movie was really boring.",
+      "example_translation": "Фильм был очень скучным.",
+      "sentence_blank": "The movie was really ___."
+    },
+    {
+      "id": 89,
+      "word": "brilliant",
+      "translation": "блестящий; великолепный",
+      "emoji": "💡",
+      "category": "quality",
+      "grade": 7,
+      "degrees": {
+        "comparative": "more brilliant",
+        "superlative": "most brilliant"
+      },
+      "antonym": "dull",
+      "synonyms": [
+        "excellent",
+        "outstanding"
+      ],
+      "example": "She had a brilliant idea.",
+      "example_translation": "У неё была блестящая идея.",
+      "sentence_blank": "She had a ___ idea."
+    },
+    {
+      "id": 90,
+      "word": "clumsy",
+      "translation": "неуклюжий",
+      "emoji": "🤕",
+      "category": "character",
+      "grade": 7,
+      "degrees": {
+        "comparative": "clumsier",
+        "superlative": "clumsiest"
+      },
+      "antonym": "graceful",
+      "synonyms": [
+        "awkward"
+      ],
+      "example": "He is clumsy and drops things.",
+      "example_translation": "Он неуклюж и роняет вещи.",
+      "sentence_blank": "He is ___ and drops things."
+    },
+    {
+      "id": 91,
+      "word": "confident",
+      "translation": "уверенный",
+      "emoji": "😎",
+      "category": "character",
+      "grade": 7,
+      "degrees": {
+        "comparative": "more confident",
+        "superlative": "most confident"
+      },
+      "antonym": "shy",
+      "synonyms": [
+        "sure",
+        "certain"
+      ],
+      "example": "She is confident about the test.",
+      "example_translation": "Она уверена в тесте.",
+      "sentence_blank": "She is ___ about the test."
+    },
+    {
+      "id": 92,
+      "word": "curious",
+      "translation": "любопытный",
+      "emoji": "🧐",
+      "category": "character",
+      "grade": 7,
+      "degrees": {
+        "comparative": "more curious",
+        "superlative": "most curious"
+      },
+      "antonym": "indifferent",
+      "synonyms": [
+        "inquisitive"
+      ],
+      "example": "Children are naturally curious.",
+      "example_translation": "Дети от природы любопытны.",
+      "sentence_blank": "Children are naturally ___."
+    },
+    {
+      "id": 93,
+      "word": "enormous",
+      "translation": "огромный",
+      "emoji": "🐋",
+      "category": "size",
+      "grade": 7,
+      "degrees": {
+        "comparative": "more enormous",
+        "superlative": "most enormous"
+      },
+      "antonym": "tiny",
+      "synonyms": [
+        "huge",
+        "massive"
+      ],
+      "example": "The whale is enormous.",
+      "example_translation": "Кит огромный.",
+      "sentence_blank": "The whale is ___."
+    },
+    {
+      "id": 94,
+      "word": "faithful",
+      "translation": "верный; преданный",
+      "emoji": "🐕",
+      "category": "character",
+      "grade": 7,
+      "degrees": {
+        "comparative": "more faithful",
+        "superlative": "most faithful"
+      },
+      "antonym": "unfaithful",
+      "synonyms": [
+        "loyal",
+        "devoted"
+      ],
+      "example": "The dog is faithful to its owner.",
+      "example_translation": "Собака верна своему хозяину.",
+      "sentence_blank": "The dog is ___ to its owner."
+    },
+    {
+      "id": 95,
+      "word": "guilty",
+      "translation": "виноватый",
+      "emoji": "😳",
+      "category": "emotion",
+      "grade": 7,
+      "degrees": {
+        "comparative": "more guilty",
+        "superlative": "most guilty"
+      },
+      "antonym": "innocent",
+      "synonyms": [
+        "responsible"
+      ],
+      "example": "He felt guilty about the mistake.",
+      "example_translation": "Он чувствовал себя виноватым.",
+      "sentence_blank": "He felt ___ about the mistake."
+    },
+    {
+      "id": 96,
+      "word": "handsome",
+      "translation": "красивый (о мужчине)",
+      "emoji": "🤴",
+      "category": "appearance",
+      "grade": 7,
+      "degrees": {
+        "comparative": "more handsome",
+        "superlative": "most handsome"
+      },
+      "antonym": "ugly",
+      "synonyms": [
+        "attractive"
+      ],
+      "example": "The prince is very handsome.",
+      "example_translation": "Принц очень красивый.",
+      "sentence_blank": "The prince is very ___."
+    },
+    {
+      "id": 97,
+      "word": "horrible",
+      "translation": "ужасный",
+      "emoji": "😨",
+      "category": "quality",
+      "grade": 7,
+      "degrees": {
+        "comparative": "more horrible",
+        "superlative": "most horrible"
+      },
+      "antonym": "wonderful",
+      "synonyms": [
+        "terrible",
+        "awful"
+      ],
+      "example": "The smell was horrible.",
+      "example_translation": "Запах был ужасным.",
+      "sentence_blank": "The smell was ___."
+    },
+    {
+      "id": 98,
+      "word": "humble",
+      "translation": "скромный",
+      "emoji": "🙏",
+      "category": "character",
+      "grade": 7,
+      "degrees": {
+        "comparative": "humbler",
+        "superlative": "humblest"
+      },
+      "antonym": "proud",
+      "synonyms": [
+        "modest"
+      ],
+      "example": "He is humble about his success.",
+      "example_translation": "Он скромен в своём успехе.",
+      "sentence_blank": "He is ___ about his success."
+    },
+    {
+      "id": 99,
+      "word": "invisible",
+      "translation": "невидимый",
+      "emoji": "👻",
+      "category": "quality",
+      "grade": 7,
+      "degrees": null,
+      "antonym": "visible",
+      "synonyms": [
+        "hidden"
+      ],
+      "example": "Germs are invisible to the eye.",
+      "example_translation": "Микробы невидимы глазу.",
+      "sentence_blank": "Germs are ___ to the eye."
+    },
+    {
+      "id": 100,
+      "word": "mature",
+      "translation": "зрелый",
+      "emoji": "🌳",
+      "category": "character",
+      "grade": 7,
+      "degrees": {
+        "comparative": "more mature",
+        "superlative": "most mature"
+      },
+      "antonym": "immature",
+      "synonyms": [
+        "grown-up",
+        "adult"
+      ],
+      "example": "She is very mature for her age.",
+      "example_translation": "Она очень зрелая для своего возраста.",
+      "sentence_blank": "She is very ___ for her age."
+    },
+    {
+      "id": 101,
+      "word": "naughty",
+      "translation": "непослушный",
+      "emoji": "😜",
+      "category": "character",
+      "grade": 7,
+      "degrees": {
+        "comparative": "naughtier",
+        "superlative": "naughtiest"
+      },
+      "antonym": "obedient",
+      "synonyms": [
+        "mischievous"
+      ],
+      "example": "The naughty boy broke the window.",
+      "example_translation": "Непослушный мальчик разбил окно.",
+      "sentence_blank": "The ___ boy broke the window."
+    },
+    {
+      "id": 102,
+      "word": "obvious",
+      "translation": "очевидный",
+      "emoji": "👁️",
+      "category": "quality",
+      "grade": 7,
+      "degrees": {
+        "comparative": "more obvious",
+        "superlative": "most obvious"
+      },
+      "antonym": "unclear",
+      "synonyms": [
+        "clear",
+        "evident"
+      ],
+      "example": "The answer is obvious.",
+      "example_translation": "Ответ очевиден.",
+      "sentence_blank": "The answer is ___."
+    },
+    {
+      "id": 103,
+      "word": "ordinary",
+      "translation": "обычный",
+      "emoji": "📦",
+      "category": "quality",
+      "grade": 7,
+      "degrees": {
+        "comparative": "more ordinary",
+        "superlative": "most ordinary"
+      },
+      "antonym": "special",
+      "synonyms": [
+        "normal",
+        "typical"
+      ],
+      "example": "It was an ordinary day.",
+      "example_translation": "Это был обычный день.",
+      "sentence_blank": "It was an ___ day."
+    },
+    {
+      "id": 104,
+      "word": "perfect",
+      "translation": "совершенный",
+      "emoji": "💎",
+      "category": "quality",
+      "grade": 7,
+      "degrees": null,
+      "antonym": "imperfect",
+      "synonyms": [
+        "flawless",
+        "ideal"
+      ],
+      "example": "The weather is perfect today.",
+      "example_translation": "Сегодня идеальная погода.",
+      "sentence_blank": "The weather is ___ today."
+    },
+    {
+      "id": 105,
+      "word": "rude",
+      "translation": "грубый",
+      "emoji": "😤",
+      "category": "character",
+      "grade": 7,
+      "degrees": {
+        "comparative": "ruder",
+        "superlative": "rudest"
+      },
+      "antonym": "polite",
+      "synonyms": [
+        "impolite",
+        "disrespectful"
+      ],
+      "example": "He was rude to the teacher.",
+      "example_translation": "Он был груб с учителем.",
+      "sentence_blank": "He was ___ to the teacher."
+    },
+    {
+      "id": 106,
+      "word": "sensible",
+      "translation": "благоразумный",
+      "emoji": "🧐",
+      "category": "character",
+      "grade": 7,
+      "degrees": {
+        "comparative": "more sensible",
+        "superlative": "most sensible"
+      },
+      "antonym": "foolish",
+      "synonyms": [
+        "reasonable",
+        "practical"
+      ],
+      "example": "That is a sensible decision.",
+      "example_translation": "Это благоразумное решение.",
+      "sentence_blank": "That is a ___ decision."
+    },
+    {
+      "id": 107,
+      "word": "serious",
+      "translation": "серьёзный",
+      "emoji": "😐",
+      "category": "character",
+      "grade": 7,
+      "degrees": {
+        "comparative": "more serious",
+        "superlative": "most serious"
+      },
+      "antonym": "funny",
+      "synonyms": [
+        "earnest"
+      ],
+      "example": "He has a serious expression.",
+      "example_translation": "У него серьёзное выражение лица.",
+      "sentence_blank": "He has a ___ expression."
+    },
+    {
+      "id": 108,
+      "word": "shy",
+      "translation": "застенчивый",
+      "emoji": "😳",
+      "category": "character",
+      "grade": 7,
+      "degrees": {
+        "comparative": "shyer",
+        "superlative": "shyest"
+      },
+      "antonym": "confident",
+      "synonyms": [
+        "timid"
+      ],
+      "example": "She is shy in front of strangers.",
+      "example_translation": "Она застенчива перед незнакомцами.",
+      "sentence_blank": "She is ___ in front of strangers."
+    },
+    {
+      "id": 109,
+      "word": "stubborn",
+      "translation": "упрямый",
+      "emoji": "🐴",
+      "category": "character",
+      "grade": 7,
+      "degrees": {
+        "comparative": "more stubborn",
+        "superlative": "most stubborn"
+      },
+      "antonym": "flexible",
+      "synonyms": [
+        "obstinate",
+        "headstrong"
+      ],
+      "example": "The stubborn child refused to eat.",
+      "example_translation": "Упрямый ребёнок отказывался есть.",
+      "sentence_blank": "The ___ child refused to eat."
+    },
+    {
+      "id": 110,
+      "word": "unique",
+      "translation": "уникальный",
+      "emoji": "🦄",
+      "category": "quality",
+      "grade": 7,
+      "degrees": null,
+      "antonym": "common",
+      "synonyms": [
+        "special",
+        "one-of-a-kind"
+      ],
+      "example": "Every person is unique.",
+      "example_translation": "Каждый человек уникален.",
+      "sentence_blank": "Every person is ___."
+    },
+    {
+      "id": 111,
+      "word": "upset",
+      "translation": "расстроенный",
+      "emoji": "😔",
+      "category": "emotion",
+      "grade": 7,
+      "degrees": {
+        "comparative": "more upset",
+        "superlative": "most upset"
+      },
+      "antonym": "happy",
+      "synonyms": [
+        "disturbed",
+        "troubled"
+      ],
+      "example": "She was upset about the news.",
+      "example_translation": "Она была расстроена из-за новостей.",
+      "sentence_blank": "She was ___ about the news."
+    },
+    {
+      "id": 112,
+      "word": "vast",
+      "translation": "обширный",
+      "emoji": "🌄",
+      "category": "size",
+      "grade": 7,
+      "degrees": {
+        "comparative": "vaster",
+        "superlative": "vastest"
+      },
+      "antonym": "small",
+      "synonyms": [
+        "huge",
+        "enormous"
+      ],
+      "example": "The ocean is vast.",
+      "example_translation": "Океан обширен.",
+      "sentence_blank": "The ocean is ___."
+    },
+    {
+      "id": 113,
+      "word": "wise",
+      "translation": "мудрый",
+      "emoji": "🦉",
+      "category": "character",
+      "grade": 7,
+      "degrees": {
+        "comparative": "wiser",
+        "superlative": "wisest"
+      },
+      "antonym": "foolish",
+      "synonyms": [
+        "smart",
+        "clever"
+      ],
+      "example": "The wise owl knows everything.",
+      "example_translation": "Мудрая сова знает всё.",
+      "sentence_blank": "The ___ owl knows everything."
+    },
+    {
+      "id": 114,
+      "word": "anxious",
+      "translation": "тревожный",
+      "emoji": "😰",
+      "category": "emotion",
+      "grade": 7,
+      "degrees": {
+        "comparative": "more anxious",
+        "superlative": "most anxious"
+      },
+      "antonym": "calm",
+      "synonyms": [
+        "worried",
+        "nervous"
+      ],
+      "example": "She felt anxious before the exam.",
+      "example_translation": "Она чувствовала тревогу перед экзаменом.",
+      "sentence_blank": "She felt ___ before the exam."
+    },
+    {
+      "id": 115,
+      "word": "generous",
+      "translation": "щедрый",
+      "emoji": "🎁",
+      "category": "character",
+      "grade": 7,
+      "degrees": {
+        "comparative": "more generous",
+        "superlative": "most generous"
+      },
+      "antonym": "greedy",
+      "synonyms": [
+        "kind",
+        "giving"
+      ],
+      "example": "She is generous with her time.",
+      "example_translation": "Она щедра на своё время.",
+      "sentence_blank": "She is ___ with her time."
+    },
+    {
+      "id": 116,
+      "word": "grateful",
+      "translation": "благодарный",
+      "emoji": "🙏",
+      "category": "emotion",
+      "grade": 7,
+      "degrees": {
+        "comparative": "more grateful",
+        "superlative": "most grateful"
+      },
+      "antonym": "ungrateful",
+      "synonyms": [
+        "thankful"
+      ],
+      "example": "I am grateful for your help.",
+      "example_translation": "Я благодарен за вашу помощь.",
+      "sentence_blank": "I am ___ for your help."
+    },
+    {
+      "id": 117,
+      "word": "flexible",
+      "translation": "гибкий",
+      "emoji": "🤸",
+      "category": "quality",
+      "grade": 7,
+      "degrees": {
+        "comparative": "more flexible",
+        "superlative": "most flexible"
+      },
+      "antonym": "rigid",
+      "synonyms": [
+        "adaptable",
+        "bendable"
+      ],
+      "example": "Gymnasts are very flexible.",
+      "example_translation": "Гимнасты очень гибкие.",
+      "sentence_blank": "Gymnasts are very ___."
+    },
+    {
+      "id": 118,
+      "word": "delightful",
+      "translation": "восхитительный",
+      "emoji": "✨",
+      "category": "quality",
+      "grade": 7,
+      "degrees": {
+        "comparative": "more delightful",
+        "superlative": "most delightful"
+      },
+      "antonym": "dreadful",
+      "synonyms": [
+        "pleasant",
+        "charming"
+      ],
+      "example": "The garden looks delightful.",
+      "example_translation": "Сад выглядит восхитительно.",
+      "sentence_blank": "The garden looks ___."
+    },
+    {
+      "id": 119,
+      "word": "flat",
+      "translation": "плоский",
+      "emoji": "📄",
+      "category": "shape",
+      "grade": 7,
+      "degrees": {
+        "comparative": "flatter",
+        "superlative": "flattest"
+      },
+      "antonym": "round",
+      "synonyms": [
+        "level",
+        "even"
+      ],
+      "example": "The countryside is very flat.",
+      "example_translation": "Местность очень плоская.",
+      "sentence_blank": "The countryside is very ___."
+    },
+    {
+      "id": 120,
+      "word": "tough",
+      "translation": "жёсткий; трудный",
+      "emoji": "🥊",
+      "category": "quality",
+      "grade": 7,
+      "degrees": {
+        "comparative": "tougher",
+        "superlative": "toughest"
+      },
+      "antonym": "soft",
+      "synonyms": [
+        "strong",
+        "difficult"
+      ],
+      "example": "This is a tough question.",
+      "example_translation": "Это трудный вопрос.",
+      "sentence_blank": "This is a ___ question."
+    },
+    {
+      "id": 121,
+      "word": "ancient",
+      "translation": "древний",
+      "emoji": "🏛️",
+      "category": "age",
+      "grade": 8,
+      "degrees": {
+        "comparative": "more ancient",
+        "superlative": "most ancient"
+      },
+      "antonym": "modern",
+      "synonyms": [
+        "old",
+        "historic"
+      ],
+      "example": "The ancient castle is beautiful.",
+      "example_translation": "Древний замок красивый.",
+      "sentence_blank": "The ___ castle is beautiful."
+    },
+    {
+      "id": 122,
+      "word": "ambitious",
+      "translation": "честолюбивый; амбициозный",
+      "emoji": "🚀",
+      "category": "character",
+      "grade": 8,
+      "degrees": {
+        "comparative": "more ambitious",
+        "superlative": "most ambitious"
+      },
+      "antonym": "lazy",
+      "synonyms": [
+        "driven",
+        "determined"
+      ],
+      "example": "She is an ambitious student.",
+      "example_translation": "Она амбициозная студентка.",
+      "sentence_blank": "She is an ___ student."
+    },
+    {
+      "id": 123,
+      "word": "appropriate",
+      "translation": "подходящий",
+      "emoji": "✔️",
+      "category": "quality",
+      "grade": 8,
+      "degrees": {
+        "comparative": "more appropriate",
+        "superlative": "most appropriate"
+      },
+      "antonym": "inappropriate",
+      "synonyms": [
+        "suitable",
+        "proper"
+      ],
+      "example": "This is not appropriate behavior.",
+      "example_translation": "Это неподходящее поведение.",
+      "sentence_blank": "This is not ___ behavior."
+    },
+    {
+      "id": 124,
+      "word": "aware",
+      "translation": "осведомлённый",
+      "emoji": "👁️",
+      "category": "quality",
+      "grade": 8,
+      "degrees": null,
+      "antonym": "unaware",
+      "synonyms": [
+        "conscious",
+        "informed"
+      ],
+      "example": "Are you aware of the rules?",
+      "example_translation": "Вы знаете правила?",
+      "sentence_blank": "Are you ___ of the rules?"
+    },
+    {
+      "id": 125,
+      "word": "cheerful",
+      "translation": "весёлый",
+      "emoji": "😄",
+      "category": "emotion",
+      "grade": 8,
+      "degrees": {
+        "comparative": "more cheerful",
+        "superlative": "most cheerful"
+      },
+      "antonym": "gloomy",
+      "synonyms": [
+        "happy",
+        "joyful"
+      ],
+      "example": "She is always cheerful.",
+      "example_translation": "Она всегда весёлая.",
+      "sentence_blank": "She is always ___."
+    },
+    {
+      "id": 126,
+      "word": "competent",
+      "translation": "компетентный",
+      "emoji": "👨‍💼",
+      "category": "character",
+      "grade": 8,
+      "degrees": {
+        "comparative": "more competent",
+        "superlative": "most competent"
+      },
+      "antonym": "incompetent",
+      "synonyms": [
+        "capable",
+        "skilled"
+      ],
+      "example": "She is a competent manager.",
+      "example_translation": "Она компетентный менеджер.",
+      "sentence_blank": "She is a ___ manager."
+    },
+    {
+      "id": 127,
+      "word": "considerate",
+      "translation": "внимательный к другим",
+      "emoji": "💝",
+      "category": "character",
+      "grade": 8,
+      "degrees": {
+        "comparative": "more considerate",
+        "superlative": "most considerate"
+      },
+      "antonym": "inconsiderate",
+      "synonyms": [
+        "thoughtful",
+        "kind"
+      ],
+      "example": "He is very considerate of others.",
+      "example_translation": "Он очень внимателен к другим.",
+      "sentence_blank": "He is very ___ of others."
+    },
+    {
+      "id": 128,
+      "word": "desperate",
+      "translation": "отчаянный",
+      "emoji": "😰",
+      "category": "emotion",
+      "grade": 8,
+      "degrees": {
+        "comparative": "more desperate",
+        "superlative": "most desperate"
+      },
+      "antonym": "hopeful",
+      "synonyms": [
+        "hopeless"
+      ],
+      "example": "She was desperate for help.",
+      "example_translation": "Она отчаянно нуждалась в помощи.",
+      "sentence_blank": "She was ___ for help."
+    },
+    {
+      "id": 129,
+      "word": "efficient",
+      "translation": "эффективный",
+      "emoji": "⚡",
+      "category": "quality",
+      "grade": 8,
+      "degrees": {
+        "comparative": "more efficient",
+        "superlative": "most efficient"
+      },
+      "antonym": "inefficient",
+      "synonyms": [
+        "effective",
+        "productive"
+      ],
+      "example": "This is an efficient method.",
+      "example_translation": "Это эффективный метод.",
+      "sentence_blank": "This is an ___ method."
+    },
+    {
+      "id": 130,
+      "word": "elegant",
+      "translation": "элегантный",
+      "emoji": "👗",
+      "category": "appearance",
+      "grade": 8,
+      "degrees": {
+        "comparative": "more elegant",
+        "superlative": "most elegant"
+      },
+      "antonym": "inelegant",
+      "synonyms": [
+        "graceful",
+        "stylish"
+      ],
+      "example": "She wore an elegant dress.",
+      "example_translation": "На ней было элегантное платье.",
+      "sentence_blank": "She wore an ___ dress."
+    },
+    {
+      "id": 131,
+      "word": "essential",
+      "translation": "существенный; необходимый",
+      "emoji": "🔑",
+      "category": "quality",
+      "grade": 8,
+      "degrees": null,
+      "antonym": "optional",
+      "synonyms": [
+        "necessary",
+        "vital"
+      ],
+      "example": "Water is essential for life.",
+      "example_translation": "Вода необходима для жизни.",
+      "sentence_blank": "Water is ___ for life."
+    },
+    {
+      "id": 132,
+      "word": "familiar",
+      "translation": "знакомый",
+      "emoji": "👋",
+      "category": "quality",
+      "grade": 8,
+      "degrees": {
+        "comparative": "more familiar",
+        "superlative": "most familiar"
+      },
+      "antonym": "unfamiliar",
+      "synonyms": [
+        "known",
+        "recognized"
+      ],
+      "example": "This song sounds familiar.",
+      "example_translation": "Эта песня звучит знакомо.",
+      "sentence_blank": "This song sounds ___."
+    },
+    {
+      "id": 133,
+      "word": "fascinating",
+      "translation": "увлекательный",
+      "emoji": "🤩",
+      "category": "quality",
+      "grade": 8,
+      "degrees": {
+        "comparative": "more fascinating",
+        "superlative": "most fascinating"
+      },
+      "antonym": "boring",
+      "synonyms": [
+        "interesting",
+        "captivating"
+      ],
+      "example": "The documentary was fascinating.",
+      "example_translation": "Документальный фильм был увлекательным.",
+      "sentence_blank": "The documentary was ___."
+    },
+    {
+      "id": 134,
+      "word": "gloomy",
+      "translation": "мрачный",
+      "emoji": "🌧️",
+      "category": "appearance",
+      "grade": 8,
+      "degrees": {
+        "comparative": "gloomier",
+        "superlative": "gloomiest"
+      },
+      "antonym": "cheerful",
+      "synonyms": [
+        "dark",
+        "sad"
+      ],
+      "example": "The weather is gloomy today.",
+      "example_translation": "Сегодня мрачная погода.",
+      "sentence_blank": "The weather is ___ today."
+    },
+    {
+      "id": 135,
+      "word": "gorgeous",
+      "translation": "великолепный",
+      "emoji": "🌺",
+      "category": "appearance",
+      "grade": 8,
+      "degrees": null,
+      "antonym": "ugly",
+      "synonyms": [
+        "beautiful",
+        "stunning"
+      ],
+      "example": "The sunset is gorgeous.",
+      "example_translation": "Закат великолепный.",
+      "sentence_blank": "The sunset is ___."
+    },
+    {
+      "id": 136,
+      "word": "harmful",
+      "translation": "вредный",
+      "emoji": "⚠️",
+      "category": "quality",
+      "grade": 8,
+      "degrees": {
+        "comparative": "more harmful",
+        "superlative": "most harmful"
+      },
+      "antonym": "harmless",
+      "synonyms": [
+        "dangerous",
+        "damaging"
+      ],
+      "example": "Smoking is harmful to health.",
+      "example_translation": "Курение вредно для здоровья.",
+      "sentence_blank": "Smoking is ___ to health."
+    },
+    {
+      "id": 137,
+      "word": "hilarious",
+      "translation": "очень смешной",
+      "emoji": "🤣",
+      "category": "quality",
+      "grade": 8,
+      "degrees": null,
+      "antonym": "serious",
+      "synonyms": [
+        "very funny",
+        "amusing"
+      ],
+      "example": "The comedy was hilarious.",
+      "example_translation": "Комедия была очень смешной.",
+      "sentence_blank": "The comedy was ___."
+    },
+    {
+      "id": 138,
+      "word": "jealous",
+      "translation": "ревнивый",
+      "emoji": "😒",
+      "category": "emotion",
+      "grade": 8,
+      "degrees": {
+        "comparative": "more jealous",
+        "superlative": "most jealous"
+      },
+      "antonym": "secure",
+      "synonyms": [
+        "envious"
+      ],
+      "example": "He was jealous of her success.",
+      "example_translation": "Он ревновал к её успеху.",
+      "sentence_blank": "He was ___ of her success."
+    },
+    {
+      "id": 139,
+      "word": "lonely",
+      "translation": "одинокий",
+      "emoji": "🏚️",
+      "category": "emotion",
+      "grade": 8,
+      "degrees": {
+        "comparative": "lonelier",
+        "superlative": "loneliest"
+      },
+      "antonym": "accompanied",
+      "synonyms": [
+        "alone",
+        "solitary"
+      ],
+      "example": "She felt lonely in the new city.",
+      "example_translation": "Она чувствовала себя одиноко в новом городе.",
+      "sentence_blank": "She felt ___ in the new city."
+    },
+    {
+      "id": 140,
+      "word": "magnificent",
+      "translation": "величественный",
+      "emoji": "🏰",
+      "category": "quality",
+      "grade": 8,
+      "degrees": {
+        "comparative": "more magnificent",
+        "superlative": "most magnificent"
+      },
+      "antonym": "ordinary",
+      "synonyms": [
+        "grand",
+        "splendid"
+      ],
+      "example": "The palace is magnificent.",
+      "example_translation": "Дворец величественный.",
+      "sentence_blank": "The palace is ___."
+    },
+    {
+      "id": 141,
+      "word": "remarkable",
+      "translation": "замечательный",
+      "emoji": "⭐",
+      "category": "quality",
+      "grade": 8,
+      "degrees": {
+        "comparative": "more remarkable",
+        "superlative": "most remarkable"
+      },
+      "antonym": "ordinary",
+      "synonyms": [
+        "outstanding",
+        "extraordinary"
+      ],
+      "example": "She has remarkable talent.",
+      "example_translation": "У неё замечательный талант.",
+      "sentence_blank": "She has ___ talent."
+    },
+    {
+      "id": 142,
+      "word": "sensitive",
+      "translation": "чувствительный",
+      "emoji": "💗",
+      "category": "character",
+      "grade": 8,
+      "degrees": {
+        "comparative": "more sensitive",
+        "superlative": "most sensitive"
+      },
+      "antonym": "insensitive",
+      "synonyms": [
+        "delicate",
+        "emotional"
+      ],
+      "example": "Be sensitive to others' feelings.",
+      "example_translation": "Будь чувствителен к чувствам других.",
+      "sentence_blank": "Be ___ to others' feelings."
+    },
+    {
+      "id": 143,
+      "word": "sophisticated",
+      "translation": "утончённый",
+      "emoji": "🎭",
+      "category": "quality",
+      "grade": 8,
+      "degrees": {
+        "comparative": "more sophisticated",
+        "superlative": "most sophisticated"
+      },
+      "antonym": "simple",
+      "synonyms": [
+        "refined",
+        "complex"
+      ],
+      "example": "She has a sophisticated taste in music.",
+      "example_translation": "У неё утончённый вкус в музыке.",
+      "sentence_blank": "She has a ___ taste in music."
+    },
+    {
+      "id": 144,
+      "word": "spontaneous",
+      "translation": "спонтанный",
+      "emoji": "🎊",
+      "category": "quality",
+      "grade": 8,
+      "degrees": null,
+      "antonym": "planned",
+      "synonyms": [
+        "impulsive",
+        "natural"
+      ],
+      "example": "We made a spontaneous decision.",
+      "example_translation": "Мы приняли спонтанное решение.",
+      "sentence_blank": "We made a ___ decision."
+    },
+    {
+      "id": 145,
+      "word": "thrilling",
+      "translation": "захватывающий",
+      "emoji": "🎢",
+      "category": "quality",
+      "grade": 8,
+      "degrees": {
+        "comparative": "more thrilling",
+        "superlative": "most thrilling"
+      },
+      "antonym": "boring",
+      "synonyms": [
+        "exciting",
+        "exhilarating"
+      ],
+      "example": "The roller coaster was thrilling.",
+      "example_translation": "Американские горки были захватывающими.",
+      "sentence_blank": "The roller coaster was ___."
+    },
+    {
+      "id": 146,
+      "word": "tremendous",
+      "translation": "огромный; потрясающий",
+      "emoji": "💫",
+      "category": "quality",
+      "grade": 8,
+      "degrees": null,
+      "antonym": "tiny",
+      "synonyms": [
+        "huge",
+        "enormous"
+      ],
+      "example": "She made a tremendous effort.",
+      "example_translation": "Она приложила огромные усилия.",
+      "sentence_blank": "She made a ___ effort."
+    },
+    {
+      "id": 147,
+      "word": "trustworthy",
+      "translation": "надёжный",
+      "emoji": "🤝",
+      "category": "character",
+      "grade": 8,
+      "degrees": {
+        "comparative": "more trustworthy",
+        "superlative": "most trustworthy"
+      },
+      "antonym": "untrustworthy",
+      "synonyms": [
+        "reliable",
+        "honest"
+      ],
+      "example": "He is a trustworthy friend.",
+      "example_translation": "Он надёжный друг.",
+      "sentence_blank": "He is a ___ friend."
+    },
+    {
+      "id": 148,
+      "word": "vivid",
+      "translation": "яркий; живой",
+      "emoji": "🎨",
+      "category": "quality",
+      "grade": 8,
+      "degrees": {
+        "comparative": "more vivid",
+        "superlative": "most vivid"
+      },
+      "antonym": "dull",
+      "synonyms": [
+        "bright",
+        "lively"
+      ],
+      "example": "She has vivid memories of childhood.",
+      "example_translation": "У неё яркие воспоминания о детстве.",
+      "sentence_blank": "She has ___ memories of childhood."
+    },
+    {
+      "id": 149,
+      "word": "worthwhile",
+      "translation": "стоящий; worthwhile",
+      "emoji": "💯",
+      "category": "quality",
+      "grade": 8,
+      "degrees": null,
+      "antonym": "worthless",
+      "synonyms": [
+        "valuable",
+        "useful"
+      ],
+      "example": "The trip was worthwhile.",
+      "example_translation": "Поездка была стоящей.",
+      "sentence_blank": "The trip was ___."
+    },
+    {
+      "id": 150,
+      "word": "absurd",
+      "translation": "абсурдный",
+      "emoji": "🤪",
+      "category": "quality",
+      "grade": 9,
+      "degrees": {
+        "comparative": "more absurd",
+        "superlative": "most absurd"
+      },
+      "antonym": "reasonable",
+      "synonyms": [
+        "ridiculous",
+        "nonsensical"
+      ],
+      "example": "The idea seemed absurd at first.",
+      "example_translation": "Идея сначала казалась абсурдной.",
+      "sentence_blank": "The idea seemed ___ at first."
+    },
+    {
+      "id": 151,
+      "word": "adventurous",
+      "translation": "приключенческий; авантюрный",
+      "emoji": "🗺️",
+      "category": "character",
+      "grade": 9,
+      "degrees": {
+        "comparative": "more adventurous",
+        "superlative": "most adventurous"
+      },
+      "antonym": "cautious",
+      "synonyms": [
+        "bold",
+        "daring"
+      ],
+      "example": "He is an adventurous traveler.",
+      "example_translation": "Он авантюрный путешественник.",
+      "sentence_blank": "He is an ___ traveler."
+    },
+    {
+      "id": 152,
+      "word": "authentic",
+      "translation": "подлинный",
+      "emoji": "📋",
+      "category": "quality",
+      "grade": 9,
+      "degrees": null,
+      "antonym": "fake",
+      "synonyms": [
+        "genuine",
+        "real"
+      ],
+      "example": "This is an authentic document.",
+      "example_translation": "Это подлинный документ.",
+      "sentence_blank": "This is an ___ document."
+    },
+    {
+      "id": 153,
+      "word": "benevolent",
+      "translation": "доброжелательный",
+      "emoji": "😇",
+      "category": "character",
+      "grade": 9,
+      "degrees": {
+        "comparative": "more benevolent",
+        "superlative": "most benevolent"
+      },
+      "antonym": "malevolent",
+      "synonyms": [
+        "kind",
+        "generous"
+      ],
+      "example": "The benevolent woman helped everyone.",
+      "example_translation": "Доброжелательная женщина помогала всем.",
+      "sentence_blank": "The ___ woman helped everyone."
+    },
+    {
+      "id": 154,
+      "word": "brief",
+      "translation": "краткий",
+      "emoji": "📝",
+      "category": "quality",
+      "grade": 9,
+      "degrees": {
+        "comparative": "briefer",
+        "superlative": "briefest"
+      },
+      "antonym": "lengthy",
+      "synonyms": [
+        "short",
+        "concise"
+      ],
+      "example": "Please give a brief answer.",
+      "example_translation": "Пожалуйста, дайте краткий ответ.",
+      "sentence_blank": "Please give a ___ answer."
+    },
+    {
+      "id": 155,
+      "word": "coherent",
+      "translation": "последовательный; связный",
+      "emoji": "🔗",
+      "category": "quality",
+      "grade": 9,
+      "degrees": {
+        "comparative": "more coherent",
+        "superlative": "most coherent"
+      },
+      "antonym": "incoherent",
+      "synonyms": [
+        "logical",
+        "consistent"
+      ],
+      "example": "She gave a coherent explanation.",
+      "example_translation": "Она дала связное объяснение.",
+      "sentence_blank": "She gave a ___ explanation."
+    },
+    {
+      "id": 156,
+      "word": "comprehensive",
+      "translation": "всеобъемлющий",
+      "emoji": "📚",
+      "category": "quality",
+      "grade": 9,
+      "degrees": {
+        "comparative": "more comprehensive",
+        "superlative": "most comprehensive"
+      },
+      "antonym": "partial",
+      "synonyms": [
+        "thorough",
+        "complete"
+      ],
+      "example": "We need a comprehensive report.",
+      "example_translation": "Нам нужен всеобъемлющий отчёт.",
+      "sentence_blank": "We need a ___ report."
+    },
+    {
+      "id": 157,
+      "word": "contemporary",
+      "translation": "современный",
+      "emoji": "🏙️",
+      "category": "age",
+      "grade": 9,
+      "degrees": null,
+      "antonym": "ancient",
+      "synonyms": [
+        "modern",
+        "current"
+      ],
+      "example": "Contemporary art is fascinating.",
+      "example_translation": "Современное искусство увлекательно.",
+      "sentence_blank": "It is very ___ today."
+    },
+    {
+      "id": 158,
+      "word": "contradictory",
+      "translation": "противоречивый",
+      "emoji": "⚡",
+      "category": "quality",
+      "grade": 9,
+      "degrees": null,
+      "antonym": "consistent",
+      "synonyms": [
+        "conflicting",
+        "opposing"
+      ],
+      "example": "The statements are contradictory.",
+      "example_translation": "Утверждения противоречивы.",
+      "sentence_blank": "The statements are ___."
+    },
+    {
+      "id": 159,
+      "word": "controversial",
+      "translation": "спорный",
+      "emoji": "🗣️",
+      "category": "quality",
+      "grade": 9,
+      "degrees": {
+        "comparative": "more controversial",
+        "superlative": "most controversial"
+      },
+      "antonym": "uncontroversial",
+      "synonyms": [
+        "debatable",
+        "disputed"
+      ],
+      "example": "This is a controversial topic.",
+      "example_translation": "Это спорная тема.",
+      "sentence_blank": "This is a ___ topic."
+    },
+    {
+      "id": 160,
+      "word": "conventional",
+      "translation": "традиционный",
+      "emoji": "🏛️",
+      "category": "quality",
+      "grade": 9,
+      "degrees": {
+        "comparative": "more conventional",
+        "superlative": "most conventional"
+      },
+      "antonym": "unconventional",
+      "synonyms": [
+        "traditional",
+        "standard"
+      ],
+      "example": "He has conventional views.",
+      "example_translation": "У него традиционные взгляды.",
+      "sentence_blank": "He has ___ views."
+    },
+    {
+      "id": 161,
+      "word": "devoted",
+      "translation": "преданный",
+      "emoji": "❤️",
+      "category": "character",
+      "grade": 9,
+      "degrees": null,
+      "antonym": "unfaithful",
+      "synonyms": [
+        "loyal",
+        "dedicated"
+      ],
+      "example": "She is a devoted mother.",
+      "example_translation": "Она преданная мать.",
+      "sentence_blank": "She is a ___ mother."
+    },
+    {
+      "id": 162,
+      "word": "diligent",
+      "translation": "прилежный",
+      "emoji": "📖",
+      "category": "character",
+      "grade": 9,
+      "degrees": {
+        "comparative": "more diligent",
+        "superlative": "most diligent"
+      },
+      "antonym": "lazy",
+      "synonyms": [
+        "hardworking",
+        "industrious"
+      ],
+      "example": "The diligent student won the prize.",
+      "example_translation": "Прилежный студент получил приз.",
+      "sentence_blank": "The ___ student won the prize."
+    },
+    {
+      "id": 163,
+      "word": "distinguished",
+      "translation": "выдающийся",
+      "emoji": "🎖️",
+      "category": "quality",
+      "grade": 9,
+      "degrees": null,
+      "antonym": "ordinary",
+      "synonyms": [
+        "eminent",
+        "prominent"
+      ],
+      "example": "He is a distinguished professor.",
+      "example_translation": "Он выдающийся профессор.",
+      "sentence_blank": "He is a ___ professor."
+    },
+    {
+      "id": 164,
+      "word": "eloquent",
+      "translation": "красноречивый",
+      "emoji": "🎤",
+      "category": "character",
+      "grade": 9,
+      "degrees": {
+        "comparative": "more eloquent",
+        "superlative": "most eloquent"
+      },
+      "antonym": "inarticulate",
+      "synonyms": [
+        "articulate",
+        "expressive"
+      ],
+      "example": "She gave an eloquent speech.",
+      "example_translation": "Она произнесла красноречивую речь.",
+      "sentence_blank": "She gave an ___ speech."
+    },
+    {
+      "id": 165,
+      "word": "exquisite",
+      "translation": "утончённый; изысканный",
+      "emoji": "💠",
+      "category": "quality",
+      "grade": 9,
+      "degrees": null,
+      "antonym": "crude",
+      "synonyms": [
+        "delicate",
+        "elegant"
+      ],
+      "example": "The design is exquisite.",
+      "example_translation": "Дизайн изысканный.",
+      "sentence_blank": "The design is ___."
+    },
+    {
+      "id": 166,
+      "word": "fluent",
+      "translation": "свободно владеющий",
+      "emoji": "🗣️",
+      "category": "quality",
+      "grade": 9,
+      "degrees": null,
+      "antonym": "halting",
+      "synonyms": [
+        "smooth",
+        "articulate"
+      ],
+      "example": "She is fluent in English.",
+      "example_translation": "Она свободно владеет английским.",
+      "sentence_blank": "She is ___ in English."
+    },
+    {
+      "id": 167,
+      "word": "genuine",
+      "translation": "подлинный; искренний",
+      "emoji": "💎",
+      "category": "quality",
+      "grade": 9,
+      "degrees": {
+        "comparative": "more genuine",
+        "superlative": "most genuine"
+      },
+      "antonym": "fake",
+      "synonyms": [
+        "authentic",
+        "real"
+      ],
+      "example": "His smile was genuine.",
+      "example_translation": "Его улыбка была искренней.",
+      "sentence_blank": "His smile was ___."
+    },
+    {
+      "id": 168,
+      "word": "inescapable",
+      "translation": "неизбежный",
+      "emoji": "🔄",
+      "category": "quality",
+      "grade": 9,
+      "degrees": null,
+      "antonym": "avoidable",
+      "synonyms": [
+        "unavoidable",
+        "inevitable"
+      ],
+      "example": "Change is inescapable.",
+      "example_translation": "Перемены неизбежны.",
+      "sentence_blank": "Change is ___."
+    },
+    {
+      "id": 169,
+      "word": "influential",
+      "translation": "влиятельный",
+      "emoji": "👑",
+      "category": "quality",
+      "grade": 9,
+      "degrees": {
+        "comparative": "more influential",
+        "superlative": "most influential"
+      },
+      "antonym": "insignificant",
+      "synonyms": [
+        "powerful",
+        "important"
+      ],
+      "example": "She is an influential leader.",
+      "example_translation": "Она влиятельный лидер.",
+      "sentence_blank": "She is an ___ leader."
+    },
+    {
+      "id": 170,
+      "word": "insightful",
+      "translation": "проницательный",
+      "emoji": "🔍",
+      "category": "quality",
+      "grade": 9,
+      "degrees": {
+        "comparative": "more insightful",
+        "superlative": "most insightful"
+      },
+      "antonym": "superficial",
+      "synonyms": [
+        "perceptive",
+        "deep"
+      ],
+      "example": "That was an insightful comment.",
+      "example_translation": "Это был проницательный комментарий.",
+      "sentence_blank": "That was an ___ comment."
+    },
+    {
+      "id": 171,
+      "word": "irresistible",
+      "translation": "неотразимый",
+      "emoji": "😍",
+      "category": "quality",
+      "grade": 9,
+      "degrees": null,
+      "antonym": "resistible",
+      "synonyms": [
+        "compelling",
+        "captivating"
+      ],
+      "example": "The cake looks irresistible.",
+      "example_translation": "Торт выглядит неотразимо.",
+      "sentence_blank": "The cake looks ___."
+    },
+    {
+      "id": 172,
+      "word": "legitimate",
+      "translation": "законный",
+      "emoji": "⚖️",
+      "category": "quality",
+      "grade": 9,
+      "degrees": null,
+      "antonym": "illegal",
+      "synonyms": [
+        "lawful",
+        "valid"
+      ],
+      "example": "That is a legitimate concern.",
+      "example_translation": "Это законная тревога.",
+      "sentence_blank": "That is a ___ concern."
+    },
+    {
+      "id": 173,
+      "word": "modest",
+      "translation": "скромный",
+      "emoji": "🌱",
+      "category": "character",
+      "grade": 9,
+      "degrees": {
+        "comparative": "more modest",
+        "superlative": "most modest"
+      },
+      "antonym": "boastful",
+      "synonyms": [
+        "humble",
+        "unassuming"
+      ],
+      "example": "She is modest about her achievements.",
+      "example_translation": "Она скромна о своих достижениях.",
+      "sentence_blank": "She is ___ about her achievements."
+    },
+    {
+      "id": 174,
+      "word": "notorious",
+      "translation": "печально известный",
+      "emoji": "🏴‍☠️",
+      "category": "quality",
+      "grade": 9,
+      "degrees": {
+        "comparative": "more notorious",
+        "superlative": "most notorious"
+      },
+      "antonym": "famous",
+      "synonyms": [
+        "infamous",
+        "well-known"
+      ],
+      "example": "He is a notorious criminal.",
+      "example_translation": "Он печально известный преступник.",
+      "sentence_blank": "He is a ___ criminal."
+    },
+    {
+      "id": 175,
+      "word": "persistent",
+      "translation": "настойчивый",
+      "emoji": "🏋️",
+      "category": "character",
+      "grade": 9,
+      "degrees": {
+        "comparative": "more persistent",
+        "superlative": "most persistent"
+      },
+      "antonym": "yielding",
+      "synonyms": [
+        "determined",
+        "tenacious"
+      ],
+      "example": "She is persistent in her studies.",
+      "example_translation": "Она настойчива в учёбе.",
+      "sentence_blank": "She is ___ in her studies."
+    },
+    {
+      "id": 176,
+      "word": "prevalent",
+      "translation": "распространённый",
+      "emoji": "🌐",
+      "category": "quality",
+      "grade": 9,
+      "degrees": {
+        "comparative": "more prevalent",
+        "superlative": "most prevalent"
+      },
+      "antonym": "rare",
+      "synonyms": [
+        "common",
+        "widespread"
+      ],
+      "example": "This disease is prevalent in the region.",
+      "example_translation": "Эта болезнь распространена в регионе.",
+      "sentence_blank": "This disease is ___ in the region."
+    },
+    {
+      "id": 177,
+      "word": "prosperous",
+      "translation": "процветающий",
+      "emoji": "💼",
+      "category": "quality",
+      "grade": 9,
+      "degrees": {
+        "comparative": "more prosperous",
+        "superlative": "most prosperous"
+      },
+      "antonym": "poor",
+      "synonyms": [
+        "successful",
+        "thriving"
+      ],
+      "example": "The country is prosperous.",
+      "example_translation": "Страна процветает.",
+      "sentence_blank": "The country is ___."
+    },
+    {
+      "id": 178,
+      "word": "reluctant",
+      "translation": "нежелающий",
+      "emoji": "😒",
+      "category": "character",
+      "grade": 9,
+      "degrees": {
+        "comparative": "more reluctant",
+        "superlative": "most reluctant"
+      },
+      "antonym": "willing",
+      "synonyms": [
+        "hesitant",
+        "unwilling"
+      ],
+      "example": "He was reluctant to answer.",
+      "example_translation": "Он неохотно отвечал.",
+      "sentence_blank": "He was ___ to answer."
+    },
+    {
+      "id": 179,
+      "word": "resilient",
+      "translation": "стойкий; жизнеспособный",
+      "emoji": "💪",
+      "category": "character",
+      "grade": 9,
+      "degrees": {
+        "comparative": "more resilient",
+        "superlative": "most resilient"
+      },
+      "antonym": "fragile",
+      "synonyms": [
+        "strong",
+        "tough"
+      ],
+      "example": "Children are very resilient.",
+      "example_translation": "Дети очень стойкие.",
+      "sentence_blank": "Children are very ___."
+    },
+    {
+      "id": 180,
+      "word": "skeptical",
+      "translation": "скептический",
+      "emoji": "🤨",
+      "category": "character",
+      "grade": 9,
+      "degrees": {
+        "comparative": "more skeptical",
+        "superlative": "most skeptical"
+      },
+      "antonym": "trusting",
+      "synonyms": [
+        "doubtful",
+        "questioning"
+      ],
+      "example": "I am skeptical about that claim.",
+      "example_translation": "Я скептически отношусь к этому заявлению.",
+      "sentence_blank": "I am ___ about that claim."
+    },
+    {
+      "id": 181,
+      "word": "spectacular",
+      "translation": "зрелищный",
+      "emoji": "🎆",
+      "category": "quality",
+      "grade": 9,
+      "degrees": {
+        "comparative": "more spectacular",
+        "superlative": "most spectacular"
+      },
+      "antonym": "ordinary",
+      "synonyms": [
+        "impressive",
+        "stunning"
+      ],
+      "example": "The fireworks were spectacular.",
+      "example_translation": "Фейерверк был зрелищным.",
+      "sentence_blank": "The fireworks were ___."
+    },
+    {
+      "id": 182,
+      "word": "steadfast",
+      "translation": "твёрдый; непоколебимый",
+      "emoji": "🗼",
+      "category": "character",
+      "grade": 9,
+      "degrees": null,
+      "antonym": "wavering",
+      "synonyms": [
+        "firm",
+        "loyal"
+      ],
+      "example": "She remained steadfast in her beliefs.",
+      "example_translation": "Она осталась непоколебимой в своих убеждениях.",
+      "sentence_blank": "She remained ___ in her beliefs."
+    },
+    {
+      "id": 183,
+      "word": "subtle",
+      "translation": "тонкий; едва уловимый",
+      "emoji": "👁️",
+      "category": "quality",
+      "grade": 9,
+      "degrees": {
+        "comparative": "subtler",
+        "superlative": "subtlest"
+      },
+      "antonym": "obvious",
+      "synonyms": [
+        "delicate",
+        "fine"
+      ],
+      "example": "There is a subtle difference between the words.",
+      "example_translation": "Между словами есть тонкая разница.",
+      "sentence_blank": "There is a ___ difference between the words."
+    },
+    {
+      "id": 184,
+      "word": "superficial",
+      "translation": "поверхностный",
+      "emoji": "🙇",
+      "category": "quality",
+      "grade": 9,
+      "degrees": null,
+      "antonym": "deep",
+      "synonyms": [
+        "shallow",
+        "skin-deep"
+      ],
+      "example": "His knowledge is superficial.",
+      "example_translation": "Его знания поверхностны.",
+      "sentence_blank": "His knowledge is ___."
+    },
+    {
+      "id": 185,
+      "word": "thorough",
+      "translation": "тщательный",
+      "emoji": "🔍",
+      "category": "quality",
+      "grade": 9,
+      "degrees": {
+        "comparative": "more thorough",
+        "superlative": "most thorough"
+      },
+      "antonym": "careless",
+      "synonyms": [
+        "detailed",
+        "comprehensive"
+      ],
+      "example": "She did a thorough research.",
+      "example_translation": "Она провела тщательное исследование.",
+      "sentence_blank": "She did a ___ research."
+    },
+    {
+      "id": 186,
+      "word": "unanimous",
+      "translation": "единогласный",
+      "emoji": "🤝",
+      "category": "quality",
+      "grade": 9,
+      "degrees": null,
+      "antonym": "divided",
+      "synonyms": [
+        "unified",
+        "in agreement"
+      ],
+      "example": "The decision was unanimous.",
+      "example_translation": "Решение было единогласным.",
+      "sentence_blank": "The decision was ___."
+    },
+    {
+      "id": 187,
+      "word": "versatile",
+      "translation": "разносторонний",
+      "emoji": "🎯",
+      "category": "quality",
+      "grade": 9,
+      "degrees": {
+        "comparative": "more versatile",
+        "superlative": "most versatile"
+      },
+      "antonym": "limited",
+      "synonyms": [
+        "adaptable",
+        "flexible"
+      ],
+      "example": "She is a versatile actress.",
+      "example_translation": "Она разносторонняя актриса.",
+      "sentence_blank": "She is a ___ actress."
+    },
+    {
+      "id": 188,
+      "word": "vigorous",
+      "translation": "энергичный",
+      "emoji": "🏃‍♂️",
+      "category": "character",
+      "grade": 9,
+      "degrees": {
+        "comparative": "more vigorous",
+        "superlative": "most vigorous"
+      },
+      "antonym": "weak",
+      "synonyms": [
+        "energetic",
+        "strong"
+      ],
+      "example": "He is a vigorous runner.",
+      "example_translation": "Он энергичный бегун.",
+      "sentence_blank": "He is a ___ runner."
+    },
+    {
+      "id": 189,
+      "word": "volatile",
+      "translation": "изменчивый; летучий",
+      "emoji": "💨",
+      "category": "quality",
+      "grade": 9,
+      "degrees": null,
+      "antonym": "stable",
+      "synonyms": [
+        "unpredictable",
+        "changeable"
+      ],
+      "example": "The situation is volatile.",
+      "example_translation": "Ситуация изменчива.",
+      "sentence_blank": "The situation is ___."
+    },
+    {
+      "id": 190,
+      "word": "wholesome",
+      "translation": "полезный; целебный",
+      "emoji": "🥗",
+      "category": "quality",
+      "grade": 9,
+      "degrees": {
+        "comparative": "more wholesome",
+        "superlative": "most wholesome"
+      },
+      "antonym": "unhealthy",
+      "synonyms": [
+        "healthy",
+        "nutritious"
+      ],
+      "example": "Eat wholesome food.",
+      "example_translation": "Ешьте полезную еду.",
+      "sentence_blank": "Eat ___ food."
+    },
+    {
+      "id": 191,
+      "word": "youthful",
+      "translation": "молодой; юный",
+      "emoji": "🧑",
+      "category": "appearance",
+      "grade": 9,
+      "degrees": {
+        "comparative": "more youthful",
+        "superlative": "most youthful"
+      },
+      "antonym": "elderly",
+      "synonyms": [
+        "young",
+        "fresh"
+      ],
+      "example": "She has a youthful appearance.",
+      "example_translation": "У неё молодой внешний вид.",
+      "sentence_blank": "She has a ___ appearance."
+    }
+  ]
+}
