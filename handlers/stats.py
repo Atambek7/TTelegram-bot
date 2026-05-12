@@ -16,7 +16,7 @@ async def stats_progress(callback: CallbackQuery):
     user = db.get_user(callback.from_user.id)
     total = user.get("total_answers", 0)
     correct = user.get("correct_answers", 0)
-    accuracy = (correct / total <i> 100) if total > 0 else 0
+    accuracy = (correct / total * 100) if total > 0 else 0
     words_learned = len(user.get("words_learned", []))
     words_mastered = len(user.get("words_mastered", []))
 
